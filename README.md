@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {\rtf1\ansi\ansicpg1252\cocoartf2638
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red100\green100\blue100;\red239\green239\blue239;}
@@ -28,3 +29,18 @@
 	        implementation 'com.github.ibrarHussain87:Toaster-Library:Tag'\
 	\}\
 }
+=======
+# Toaster-Library
+Step 1. Add the JitPack repository to your build file
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+ependencies {
+	        implementation 'com.github.ibrarHussain87:Toaster-Library:Tag'
+	}
+>>>>>>> 109641d79afcba5e4853f532a4896e8ebab8bb78
